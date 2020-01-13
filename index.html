@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Test day 1</title>
+    <link rel="stylesheet" href="reset.css">
+    <style>
+      ul {
+        display: flex;
+        text-transform: uppercase;
+        color: blue;
+      }
+      li:nth-child(2) {
+        /* color: red; */
+        /* transform: rotate(200deg);
+        font-size: 100px; */
+        
+      }
+      li {
+        margin-right: 10px;
+      }
+
+      li:hover {
+        text-decoration: underline;
+        color: red;
+      }
+
+      li::after {
+        content: "|";
+        margin-left: 10px;
+      }
+
+      li:last-child::after {
+        content: "";
+        margin-left: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <ul class="section-titles">
+      <li>Home</li>
+      <li>About us</li>
+      <li>Menu</li>
+      <li>Contact us</li>
+    </ul>
+  </body>
+</html>

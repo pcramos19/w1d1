@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        html, body {
+            margin: 0;
+            padding: 0;
+        }
+        
+        #cover-box {
+            background: rgba(0, 0, 0, .7);
+            height: 100vh;
+            width: 100vw;
+            position: fixed;
+            z-index: 10;
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <div id="cover-box"></div>
+    <button id="test">Hola</button>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptas obcaecati porro maiores praesentium eos similique beatae, maxime enim iusto, quas ea magnam sapiente aspernatur inventore quod ipsam iure, sint iste.</p>
+    <p>Cumque adipisci aliquid expedita deleniti iste quidem ex quod quae illo mollitia officiis quasi recusandae quis sequi, atque corporis facere vero? Temporibus atque doloremque quo iusto. Sit iusto praesentium iste!</p>
+    <p>Deleniti ducimus, eaque eum sint facilis quisquam, inventore laudantium repudiandae quas nihil itaque cum ut voluptatibus accusamus iure, nam quae tenetur quia blanditiis? Nobis impedit quasi nam, at consequatur aliquid.</p>
+    <p>Numquam, autem? Asperiores, ut! Tenetur voluptates qui deserunt, sequi cum voluptatem nobis, sunt quam corporis adipisci rerum! Qui quo cum molestias aliquam debitis, asperiores aperiam porro minus numquam odit culpa.</p>
+    <p>Numquam dignissimos aliquid, voluptatem sint provident tempora velit animi debitis consequuntur sit tempore quia est ratione veniam vel expedita minus a itaque inventore voluptates soluta ut. Quos facilis ducimus minus.</p>
+    <script>
+        document.getElementById("test").onclick = function () {
+            document.getElementById("cover-box").style.display = "block"
+        }
+    </script>
+</body>
+</html>
